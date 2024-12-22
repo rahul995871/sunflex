@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SunFlex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/custom.css" />
+
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- mobile-header -->
+ <!-- filter-navbar -->
+
+ <div
+ class="filter-sidebar-icon d-lg-none d-block"
+ type="button"
+ data-bs-toggle="offcanvas"
+ data-bs-target="#offcanvasExample3"
+ aria-controls="offcanvasExample"
+>
+ <!-- <i class="fa-solid fa-arrow-up-wide-short text-light"></i> -->
+ <img src="./images/filter.png" alt="" />
+</div>
+
+
+<!-- --filter-navbar-end- -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <a class="navbar-brand" href="index.html">
+          <img src="./img/logo.jpg" class="img-fluid" />
+        </a>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+
+      <div class="offcanvas-body pt-2">
+        <form role="search">
+          <div class="search-bar w-100 mb-3 py-2">
+            <input type="text" placeholder="search" class="w-100" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </form>
+        <div>
+          <ul class="navbar-nav mb-2 mb-lg-0 c-nav gap-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- mobile-header-end -->
+
+    <!-- top-header -->
+
+    <div class="section m-0 p-0">
+      <div class="">
+        <div class="top-header">
+          <ul class="social-icons d-lg-flex d-none">
+            <li>
+              <i class="fa-brands fa-facebook"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-instagram"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-twitter"></i>
+            </li>
+          </ul>
+
+          <div class="small-tag fw-bold d-lg-flex d-none">
+            <small class="text-light"
+              >Molecular biology laboratories + Life science laboratories</small
+            >
+            <!-- <ul class="social-phone d-flex">
+           <li>
+             <a
+               href="#"
+               class="text-decoration-none text-light d-flex align-items-center gap-2"
+               ><i class="fa-solid fa-phone"></i>
+               <small>+011 2323-2323</small></a
+             >
+           </li>
+
+           <li>
+             <a
+               href="#"
+               class="text-decoration-none text-light d-flex align-items-center gap-2"
+               ><i class="fa-solid fa-phone"></i>
+               <small>+011 2323-2323</small></a
+             >
+           </li>
+         </ul> -->
+          </div>
+
+          <div>
+            <ul class="social-address p-0">
+              <li class="d-flex align-items-center gap-2">
+                <a
+                  href="dashboard.html"
+                  class="text-decoration-none text-light d-flex align-items-center gap-2"
+                  ><i class="fa-solid fa-user"></i>
+                  <div>
+                    <a href="#" class="text-decoration-none text-light"
+                      ><small>Login</small></a
+                    >
+                    <span class="text-light px-1">|</span>
+                    <a href="#" class="text-decoration-none text-light"
+                      ><small>Sign Up</small></a
+                    >
+                  </div></a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-lg-none d-flex align-items-center gap-3">
+            <div class="cart-icon">
+              <!-- <span class="cart-count"><small>1</small></span> -->
+              <a href="cart.html">
+                <img src="./images/cart.png" alt="" class="img-fluid"
+              /></a>
+            </div>
+            <div class="cart-icon">
+              <!-- <span class="cart-count"><small>1</small></span> -->
+              <a href="wishlist.html"
+                ><img src="./images/wishlist.png" alt="" class="img-fluid"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- top-header-end -->
+
+    <!-- header -->
+    <div class="section m-0 p-0 c-header overflow-visible">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="./img/logo.jpg" class="img-fluid" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample"
+              aria-controls="offcanvasExample"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse gap-3"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 c-nav gap-4">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Products
+                  </a>
+                  <ul class="dropdown-menu c-dropdown">
+                    <li>
+                      <a class="dropdown-item" href="products.html"
+                        >Joint, Bone & Tendon Health</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="products.html">Pain Management</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="products.html">Immune Health</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="products.html"
+                        >Cardiodiabetic Health</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Media</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+              <form role="search">
+                <div class="search-bar">
+                  <input type="text" placeholder="search" />
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- header-end -->
+      <!-- banner -->
+
+      <div class="section m-0 sub-blob">
+        <div class="container py-3">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="text-center position-relative" style="z-index: 1;">
+                        <h1 class="text-light bottom-border position-relative ">
+                          Anit Inflammatory</h1>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- banner-end -->
+
+
+    <div class="section m-0 pt-4 pt-md-5">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div
+            class="px-0 px-lg-3 col-lg-3 off-close offcanvas-lg offcanvas-start"
+            tabindex="-1"
+            id="offcanvasExample3"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            <div class="filter-nav overflow-auto rounded-md-0">
+              <div
+                class="filter-nav-heading filter-border position-relative bg-dark text-light"
+              >
+                <p class="text-light">All Categories</p>
+                <button
+                  type="button"
+                  class="btn-close-white btn-close d-lg-none d-block c-close"
+                  style="opacity: 1"
+                  data-bs-dismiss="c-close"
+                  aria-label="Close"
+                ></button>
+
+                <i
+                  class="fa-solid fa-arrow-up-wide-short text-light d-lg-block d-none"
+                ></i>
+              </div>
+
+              <div class="filter-border position-relative">
+                <!-- <div class="filter-menu-heading">
+                  <p class="mb-1">CATEGORIES</p>
+                </div> -->
+                <div class="filter-check">
+                  <div class="form-check">
+                    <div><i class="fa-solid fa-circle-right"></i></div>
+                    <div>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Anit Inflammatory (29)
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-check">
+                    <div><i class="fa-solid fa-circle-right"></i></div>
+                    <div>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Dental Range (1)
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-check">
+                    <div><i class="fa-solid fa-circle-right"></i></div>
+                    <div>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Gastro Products Franchise (21)
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-check">
+                    <div><i class="fa-solid fa-circle-right"></i></div>
+                    <div>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Orthopedic Drug (6)
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-check">
+                    <div><i class="fa-solid fa-circle-right"></i></div>
+                    <div>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Veterinary (17)
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-check">
+                    <div><i class="fa-solid fa-circle-right"></i></div>
+                    <div>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Anit Inflammatory (29)
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-check">
+                    <div><i class="fa-solid fa-circle-right"></i></div>
+                    <div>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Dental Range (1)
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-check">
+                    <div><i class="fa-solid fa-circle-right"></i></div>
+                    <div>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Gastro Products Franchise (21)
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-check">
+                    <div><i class="fa-solid fa-circle-right"></i></div>
+                    <div>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Orthopedic Drug (6)
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-check">
+                    <div><i class="fa-solid fa-circle-right"></i></div>
+                    <div>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Veterinary (17)
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-9">
+            <div class="c-breadcrumb row align-items-center pb-3 mb-4 gy-2">
+              <div class="col-md-6">
+                <nav
+                  style="--bs-breadcrumb-divider: '>'"
+                  aria-label="breadcrumb"
+                >
+                  <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item">
+                      <a href="#"
+                        ><img class="img-fluid" src="./images/home.png" alt=""
+                      /></a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                      <small>Products</small>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                      <small>Anit Inflammatory (29)</small>
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+
+            <div class="row gy-4 gx-2">
+              <a
+                href="#"
+                class="col-md-6 text-decoration-none text-black col-lg-4 col-6 col-ssm-12"
+              >
+                <div class="product-card">
+                  <div class="product-card-tag">
+                    <p>Trending</p>
+                  </div>
+
+                  <div class="product-card-wishlist">
+                    <div class="heart">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="heart">
+                      <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                  </div>
+                  <div class="product-card-img">
+                    <img src="./img/product-1.png" alt="" />
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center px-1 gap-2"
+                  >
+                    <div>
+                      <div class="py-1">
+                        <small class="fw-semibold"
+                          >Supracal® Pro+ Tablets</small
+                        >
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <small class="fw-semibold">Price:</small>
+                        <s><p>&#8377; 800</p></s>
+                        <p class="col-primary">&#8377; 699</p>
+                      </div>
+                    </div>
+
+                    <!-- <div class="cart-btn mt-3">
+                    <a href="#"> <button>Detail</button></a>
+                  </div> -->
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="#"
+                class="col-md-6 text-decoration-none text-black col-lg-4 col-6 col-ssm-12"
+              >
+                <div class="product-card">
+                  <div class="product-card-tag">
+                    <p>New</p>
+                  </div>
+
+                  <div class="product-card-wishlist">
+                    <div class="heart">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="heart">
+                      <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                  </div>
+                  <div class="product-card-img">
+                    <img src="./img/product-2.png" alt="" />
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center px-1 gap-2"
+                  >
+                    <div>
+                      <div class="py-1">
+                        <small class="fw-semibold">MGD3® 60K Tablets</small>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <small class="fw-semibold">Price:</small>
+                        <s><p>&#8377; 800</p></s>
+                        <p class="col-primary">&#8377; 699</p>
+                      </div>
+                    </div>
+
+                    <!-- <div class="cart-btn mt-3">
+                    <a href="#"> <button>Detail</button></a>
+                  </div> -->
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="#"
+                class="col-md-6 text-decoration-none text-black col-lg-4 col-6 col-ssm-12"
+              >
+                <div class="product-card">
+                  <div class="product-card-tag">
+                    <p>Trending</p>
+                  </div>
+
+                  <div class="product-card-wishlist">
+                    <div class="heart">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="heart">
+                      <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                  </div>
+                  <div class="product-card-img">
+                    <img src="./img/product-3.png" alt="" />
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center px-1 gap-2"
+                  >
+                    <div>
+                      <div class="py-1">
+                        <small class="fw-semibold"
+                          >Cartigen® 1500 Tablets</small
+                        >
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <small class="fw-semibold">Price:</small>
+                        <s><p>&#8377; 800</p></s>
+                        <p class="col-primary">&#8377; 699</p>
+                      </div>
+                    </div>
+
+                    <!-- <div class="cart-btn mt-3">
+                    <a href="#"> <button>Detail</button></a>
+                  </div> -->
+                  </div>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="col-md-6 text-decoration-none text-black col-lg-4 col-6 col-ssm-12"
+              >
+                <div class="product-card">
+                  <div class="product-card-tag">
+                    <p>Trending</p>
+                  </div>
+
+                  <div class="product-card-wishlist">
+                    <div class="heart">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="heart">
+                      <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                  </div>
+                  <div class="product-card-img">
+                    <img src="./img/product-4.png" alt="" />
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center px-1 gap-2"
+                  >
+                    <div>
+                      <div class="py-1">
+                        <small class="fw-semibold">Actis C2®</small>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <small class="fw-semibold">Price:</small>
+                        <s><p>&#8377; 800</p></s>
+                        <p class="col-primary">&#8377; 699</p>
+                      </div>
+                    </div>
+
+                    <!-- <div class="cart-btn mt-3">
+                  <a href="#"> <button>Detail</button></a>
+                </div> -->
+                  </div>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="col-md-6 text-decoration-none text-black col-lg-4 col-6 col-ssm-12"
+              >
+                <div class="product-card">
+                  <div class="product-card-tag">
+                    <p>Trending</p>
+                  </div>
+
+                  <div class="product-card-wishlist">
+                    <div class="heart">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="heart">
+                      <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                  </div>
+                  <div class="product-card-img">
+                    <img src="./img/product-2.png" alt="" />
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center px-1 gap-2"
+                  >
+                    <div>
+                      <div class="py-1">
+                        <small class="fw-semibold">Cartigen® Capsules</small>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <small class="fw-semibold">Price:</small>
+                        <s><p>&#8377; 800</p></s>
+                        <p class="col-primary">&#8377; 699</p>
+                      </div>
+                    </div>
+
+                    <!-- <div class="cart-btn mt-3">
+                <a href="#"> <button>Detail</button></a>
+              </div> -->
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="#"
+                class="col-md-6 text-decoration-none text-black col-lg-4 col-6 col-ssm-12"
+              >
+                <div class="product-card">
+                  <div class="product-card-tag">
+                    <p>Trending</p>
+                  </div>
+
+                  <div class="product-card-wishlist">
+                    <div class="heart">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="heart">
+                      <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                  </div>
+                  <div class="product-card-img">
+                    <img src="./img/product-1.png" alt="" />
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center px-1 gap-2"
+                  >
+                    <div>
+                      <div class="py-1">
+                        <small class="fw-semibold"
+                          >Supracal® Pro+ Tablets</small
+                        >
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <small class="fw-semibold">Price:</small>
+                        <s><p>&#8377; 800</p></s>
+                        <p class="col-primary">&#8377; 699</p>
+                      </div>
+                    </div>
+
+                    <!-- <div class="cart-btn mt-3">
+              <a href="#"> <button>Detail</button></a>
+            </div> -->
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="#"
+                class="col-md-6 text-decoration-none text-black col-lg-4 col-6 col-ssm-12"
+              >
+                <div class="product-card">
+                  <div class="product-card-tag">
+                    <p>New</p>
+                  </div>
+
+                  <div class="product-card-wishlist">
+                    <div class="heart">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="heart">
+                      <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                  </div>
+                  <div class="product-card-img">
+                    <img src="./img/product-2.png" alt="" />
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center px-1 gap-2"
+                  >
+                    <div>
+                      <div class="py-1">
+                        <small class="fw-semibold">MGD3® 60K Tablets</small>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <small class="fw-semibold">Price:</small>
+                        <s><p>&#8377; 800</p></s>
+                        <p class="col-primary">&#8377; 699</p>
+                      </div>
+                    </div>
+
+                    <!-- <div class="cart-btn mt-3">
+              <a href="#"> <button>Detail</button></a>
+            </div> -->
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="#"
+                class="col-md-6 text-decoration-none text-black col-lg-4 col-6 col-ssm-12"
+              >
+                <div class="product-card">
+                  <div class="product-card-tag">
+                    <p>Trending</p>
+                  </div>
+
+                  <div class="product-card-wishlist">
+                    <div class="heart">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="heart">
+                      <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                  </div>
+                  <div class="product-card-img">
+                    <img src="./img/product-3.png" alt="" />
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center px-1 gap-2"
+                  >
+                    <div>
+                      <div class="py-1">
+                        <small class="fw-semibold"
+                          >Cartigen® 1500 Tablets</small
+                        >
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <small class="fw-semibold">Price:</small>
+                        <s><p>&#8377; 800</p></s>
+                        <p class="col-primary">&#8377; 699</p>
+                      </div>
+                    </div>
+
+                    <!-- <div class="cart-btn mt-3">
+              <a href="#"> <button>Detail</button></a>
+            </div> -->
+                  </div>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="col-md-6 text-decoration-none text-black col-lg-4 col-6 col-ssm-12"
+              >
+                <div class="product-card">
+                  <div class="product-card-tag">
+                    <p>Trending</p>
+                  </div>
+
+                  <div class="product-card-wishlist">
+                    <div class="heart">
+                      <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="heart">
+                      <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                  </div>
+                  <div class="product-card-img">
+                    <img src="./img/product-4.png" alt="" />
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center px-1 gap-2"
+                  >
+                    <div>
+                      <div class="py-1">
+                        <small class="fw-semibold">Actis C2®</small>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <small class="fw-semibold">Price:</small>
+                        <s><p>&#8377; 800</p></s>
+                        <p class="col-primary">&#8377; 699</p>
+                      </div>
+                    </div>
+
+                    <!-- <div class="cart-btn mt-3">
+            <a href="#"> <button>Detail</button></a>
+          </div> -->
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="row justify-content-center align-items-center pt-5">
+              <div class="col-md-6">
+                <nav aria-label="Page navigation example" class="c-pagination">
+                  <ul class="pagination justify-content-center mb-0">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item active">
+                      <a class="page-link" href="#"><small>1</small></a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#"><small>2</small></a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#"><small>3</small></a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer
+		============================================= -->
+    <footer id="footer" class="border-0 text-light bg-dark">
+      <div class="section m-0 pt-md-5 pt-4 pb-0 footer-border">
+        <div class="container-fluid">
+          <div
+            class="row justify-content-between g-md-0 g-5 align-items-center"
+          >
+            <div class="col-md-3 c-foot col-8 text-center mx-auto mx-md-0">
+              <div class="">
+                <img src="./img/logo-trans.png" class="img-fluid" alt="" />
+              </div>
+            </div>
+
+            <div class="col-md-3 c-foot col-6">
+              <div class="">
+                <h5 class="mb-3 b-border-w position-relative">Quick Links</h5>
+                <ul>
+                  <li><a href="#">About</a></li>
+
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 c-foot col-6">
+              <div class="">
+                <h5 class="mb-3 b-border-w position-relative">My Account</h5>
+                <ul>
+                  <li><a href="#">My Wishlist</a></li>
+                  <li><a href="#">My Order</a></li>
+                  <li><a href="#">Cart</a></li>
+                  <li><a href="#">Login/Sign Up</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 c-foot">
+              <div class="">
+                <h5 class="mb-3 b-border-w position-relative">Contact Us</h5>
+                <ul class="mb-3">
+                  <li>
+                    <a href="" class="d-flex gap-2 my-1"
+                      ><i class="fa-solid fa-envelope col-b"></i>
+                      info@SunFlex.co.in</a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="d-flex gap-2"
+                      ><i class="fa-solid fa-phone col-b"></i> 1234 4321</a
+                    >
+                  </li>
+                </ul>
+
+                <ul class="s-icons">
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyrights
+			============================================= -->
+
+      <div class="section m-0 py-1 bg-dark text-light">
+        <div class="container-fluid">
+          <div class="row justify-content-between align-items-center py-2 mx-3">
+            <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+              <small class="m-0"
+                >&copy; 2023 SunFlex. All Rights Reserved.</small
+              >
+            </div>
+
+            <div class="col-md-3">
+              <ul
+                class="pay-card justify-content-md-end justify-content-center"
+              >
+                <li>
+                  <a href="#"><img src="./images/visa.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./images/mastercard.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./img/product-1.pngpng" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./images/american-express.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- #copyrights end -->
+    </footer>
+    <!-- #footer end -->
+    <a id="back-to-top" href="#" class="back-to-top"
+      ><i class="fas fa-chevron-up"></i
+    ></a>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"
+      integrity="sha512-NqYds8su6jivy1/WLoW8x1tZMRD7/1ZfhWG/jcRQLOzV1k1rIODCpMgoBnar5QXshKJGV7vi0LXLNXPoFsM5Zg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.js"
+      integrity="sha512-UOJe4paV6hYWBnS0c9GnIRH8PLm2nFK22uhfAvsTIqd3uwnWsVri1OPn5fJYdLtGY3wB11LGHJ4yPU1WFJeBYQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+ 
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $("select").niceSelect();
+      });
+    </script>
+    <script></script>
+  </body>
+</html>

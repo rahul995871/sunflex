@@ -1,3 +1,8 @@
+$(".c-close").click(function(){
+
+    $('.off-close').offcanvas('hide');
+});
+
 // navbar
 $(".navbar .dropdown").hover(
   function () {
@@ -66,6 +71,63 @@ $(".products-slider").slick({
     // instead of a settings object
   ],
 });
+// ---------------
+
+$(".category-slider").slick({
+  dots: true,
+  pauseOnHover: true,
+  autoplay: true,
+  autoplaySpeed: 1200,
+  infinite: true,
+  arrows: true,
+  prevArrow:
+    '<div class="slick-arrow slick-prev fa-solid fa-chevron-left"></div>',
+  nextArrow:
+    '<div class="slick-arrow slick-next fa-solid fa-chevron-right"></div>',
+  speed: 350,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 786,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        arrows: false,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ],
+});
+
+
+
 $('.mob-dash-btn').click(function(){
       
   $('.mob-dash').toggleClass('mob-dash-active');
@@ -247,10 +309,7 @@ prange.noUiSlider.on("update", function (values) {
       });
       // price-range-end
 
-      $(".c-close").click(function(){
-        $('.off-close').offcanvas('hide');
-    });
-
+    
     // cart-items
    
 
@@ -276,4 +335,4 @@ prange.noUiSlider.on("update", function (values) {
 
 
 
-  
+  console.log("runninfg")
