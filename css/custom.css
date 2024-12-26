@@ -1458,3 +1458,119 @@ color: var(--primary-color);
 }
 /* ---------------------------------------products-page-end--------------------------------------------------- */
 
+
+/* about-us-page */
+.c-heading {
+  text-align: center;
+}
+.c-heading h4 {
+  font-family: "Bubblegum Sans", sans-serif;
+
+  padding-bottom: 5px;
+
+  font-size: 28px;
+}
+.c-lines {
+  position: relative;
+}
+.c-lines img {
+  height: 40px;
+  object-fit: contain;
+  object-position: center;
+  width: 40px;
+  background: white;
+  position: relative;
+  z-index: 1;
+}
+.c-lines::after {
+  content: "";
+  background: var(--primary-color);
+  width: 250px;
+  height: 2px;
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* z-index: -1; */
+}
+.c-lines::before {
+  content: "";
+  background: var(--secondary-color);
+  width: 200px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* z-index: -1; */
+}
+.choose-card {
+  text-align: center;
+
+  /* display: flex; */
+}
+.choose-card-img {
+  height: 50px;
+
+  width: 50px;
+
+  text-align: center;
+
+  margin: auto;
+
+  margin-bottom: 20px;
+}
+.choose-card-img img {
+  height: 100%;
+
+  width: 100%;
+
+  object-fit: contain;
+
+  object-position: center;
+}
+
+.shape-1::after {
+  content: "";
+  background-image: url(../images/shape2.webp);
+  background-position: center;
+  background-repeat: repeat-x;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  height: 25px;
+  z-index: 1;
+}
+.phar-card{
+  border-radius: 12px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+.pharm-side-card{
+  border-radius: 12px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background: #f9b5152e;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.a-blob::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../img/a-blob.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+/* about-us-page-end */
+
