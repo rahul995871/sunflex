@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SunFlex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/custom.css" />
+
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- mobile-header -->
+
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <a class="navbar-brand" href="index.html">
+          <img src="./img/logo.jpg" class="img-fluid" />
+        </a>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+
+      <div class="offcanvas-body pt-2">
+        <form role="search">
+          <div class="search-bar w-100 mb-3 py-2">
+            <input type="text" placeholder="search" class="w-100" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </form>
+        <div>
+          <ul class="navbar-nav mb-2 mb-lg-0 c-nav gap-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <ul class="dropdown-menu c-dropdown">
+                <li>
+                  <a class="dropdown-item" href="products.html"
+                    >Joint, Bone & Tendon Health</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="products.html"
+                    >Pain Management</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="products.html"
+                    >Immune Health</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="products.html"
+                    >Cardiodiabetic Health</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- mobile-header-end -->
+
+    <!-- top-header -->
+
+    <div class="section m-0 p-0">
+      <div class="">
+        <div class="top-header">
+          <ul class="social-icons d-lg-flex d-none">
+            <li>
+              <i class="fa-brands fa-facebook"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-instagram"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-twitter"></i>
+            </li>
+          </ul>
+
+          <div class="small-tag fw-bold d-lg-flex d-none">
+            <small class="text-light"
+              >Molecular biology laboratories + Life science laboratories</small
+            >
+            <!-- <ul class="social-phone d-flex">
+             <li>
+               <a
+                 href="#"
+                 class="text-decoration-none text-light d-flex align-items-center gap-2"
+                 ><i class="fa-solid fa-phone"></i>
+                 <small>+011 2323-2323</small></a
+               >
+             </li>
+
+             <li>
+               <a
+                 href="#"
+                 class="text-decoration-none text-light d-flex align-items-center gap-2"
+                 ><i class="fa-solid fa-phone"></i>
+                 <small>+011 2323-2323</small></a
+               >
+             </li>
+           </ul> -->
+          </div>
+
+          <div>
+            <ul class="social-address p-0">
+              <li class="d-flex align-items-center gap-2">
+                <a
+                  href="#"
+                  class="text-decoration-none text-light d-flex align-items-center gap-2"
+                  ><i class="fa-solid fa-user"></i>
+                  <div>
+                    <a href="#" class="text-decoration-none text-light"
+                      ><small>Login</small></a
+                    >
+                    <span class="text-light px-1">|</span>
+                    <a href="#" class="text-decoration-none text-light"
+                      ><small>Sign Up</small></a
+                    >
+                  </div></a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-lg-none d-flex align-items-center gap-3">
+            <div class="cart-icon">
+              <!-- <span class="cart-count"><small>1</small></span> -->
+              <a href="#">
+                <img src="./images/cart.png" alt="" class="img-fluid"
+              /></a>
+            </div>
+            <div class="cart-icon">
+              <!-- <span class="cart-count"><small>1</small></span> -->
+              <a href="#"
+                ><img src="./images/wishlist.png" alt="" class="img-fluid"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- top-header-end -->
+
+    <!-- header -->
+    <div class="section m-0 p-0 c-header overflow-visible">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="./img/logo.jpg" class="img-fluid" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample"
+              aria-controls="offcanvasExample"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse gap-3"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 c-nav gap-4">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Products
+                  </a>
+                  <ul class="dropdown-menu c-dropdown">
+                    <li>
+                      <a class="dropdown-item" href="products.html"
+                        >Joint, Bone & Tendon Health</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="products.html"
+                        >Pain Management</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="products.html"
+                        >Immune Health</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="products.html"
+                        >Cardiodiabetic Health</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Media</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+              <form role="search">
+                <div class="search-bar">
+                  <input type="text" placeholder="search" />
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- header-end -->
+
+    <!-- about-heading -->
+
+    <div class="section m-0 sub-blob">
+      <div class="container py-3">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="text-center position-relative" style="z-index: 1">
+              <h1 class="text-light bottom-border position-relative">
+                About Us
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about-heading-end -->
+
+    <!-- about-us -->
+
+    <div class="section m-0 pb-0 pb-md-3 pt-0 a-blob">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div
+            class="col-lg-6 about-txt mt-5 mt-lg-0"
+            data-aos="fade-right"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+          >
+            <p>Welcome to SunFlex</p>
+            <h1>Why SunFlex</h1>
+            <div class="py-3">
+              <small
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat itaque magnam delectus ipsa consequatur dicta et minus
+                quasi quae repudiandae accusantium aspernatur, incidunt nesciunt
+                asperiores laborum, recusandae eveniet qui cum dolorem commodi
+                at placeat ratione explicabo nemo! Autem rem at cumque, quasi
+                optio rerum maxime?.</small
+              >
+            </div>
+            <div class="c-btn mb-5 mt-4">
+              <a href="#" class="button">SHOP NOW</a>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-5"
+            data-aos="fade-left"
+            data-aos-delay="200"
+            data-aos-duration="800"
+          >
+            <img src="./img/about-us.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about-us-end -->
+
+    <!-- why choose us -->
+
+    <div class="section m-0 pt-5 pb-0 pb-md-5 bg-secondary text-light">
+      <div class="container text-center">
+        <div class="row justify-content-center align-items-center mb-5">
+          <div class="col-md-8">
+            <div class="c-heading text-center text-light">
+              <p
+                class="text-light side-border-w position-relative d-inline-block"
+              >
+                Welcome to SunFlex
+              </p>
+              <h1 class="text-light">Retail Pharmacy We Are</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div
+            class="col-md-3 mb-5 mb-md-0"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="600"
+          >
+            <div class="choose-card px-5 px-md-0">
+              <div class="choose-card-img">
+                <img src="./img/ecommerce.png" alt="" />
+              </div>
+              <div>
+                <p class="fw-semibold mb-1 text-white">E-Pharmacy</p>
+                <small
+                  >We offer completely free return and exchange within 10
+                  days</small
+                >
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-md-3 mb-5 mb-md-0"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+            data-aos-duration="700"
+          >
+            <div class="choose-card px-5 px-md-0">
+              <div class="choose-card-img">
+                <img src="./img/test.png" alt="" />
+              </div>
+              <div>
+                <p class="fw-semibold mb-1 text-white">Labs Tests</p>
+                <small
+                  >We’re online all the time and always ready to supprot
+                  you</small
+                >
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-md-3 mb-5 mb-md-0"
+            data-aos="zoom-in"
+            data-aos-delay="150"
+            data-aos-duration="800"
+          >
+            <div class="choose-card px-5 px-md-0">
+              <div class="choose-card-img">
+                <img src="./img/app.png" alt="" />
+              </div>
+              <div>
+                <p class="fw-semibold mb-1 text-white">Authentic Information</p>
+                <small
+                  >We provide hig h quality products and excellent
+                  services</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- why choose us-end -->
+
+    <!-- about-us -->
+
+    <div class="section m-0 pb-5 pb-md-5 ">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div
+            class="col-lg-6"
+            data-aos="fade-right"
+            data-aos-delay="200"
+            data-aos-duration="800"
+          >
+            <img src="./img/about-us2.jpg" alt="" class="img-fluid phar-card" />
+          </div>
+
+          <div
+            class="col-lg-6 about-txt mt-5 mt-lg-0"
+            data-aos="fade-left"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+          >
+            <div class="pharm-side-card p-5 h-100">
+              <h1 class="mb-1 side-border-w position-relative d-inline-block">Why SunFlex</h1>
+              <div class="py-3">
+                <small
+                  >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Earum, reprehenderit expedita nesciunt harum modi suscipit
+                  quam iure laboriosam dolore hic!</small
+                >
+              </div>
+              <div class="py-1">
+                <small
+                  >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Earum, reprehenderit expedita nesciunt harum modi suscipit
+                  qu!</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about-us-end -->
+      <!-- testimonial -->
+
+  <div class="section m-0 pt-5 pb-0 pb-md-5 bg-dark testimonial-bg">
+    <div class="container position-relative" style="z-index: 1">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-8" data-aos="zoom-in">
+          <div class="c-heading text-center text-light">
+            <h1
+              class="text-light text-bold mb-4 position-relative d-inline-block side-border-w"
+            >
+            What Our  <span class="text-primary">Customers</span>
+            </h1>
+            
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- <div
+            class="col-md-4 text-center text-md-start "
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-duration="700"
+          >
+            <div class="">
+              <h1 class="text-light mb-4">
+                What Our <br>Customers <span class="col-primary">Say</span>?
+              </h1>
+              <small class="text-light mb-5"
+                >Discover what our clients have to say about their
+                extraordinary journeys with BMT</small
+              >
+            </div>
+          </div> -->
+
+          <div class="col-lg-8">
+            <div class="testimonial">
+              <div>
+                <div class="testimonial-card">
+                  <div class="">
+                    <div class="testimonial-img">
+                      <img class="img-fluid" src="./img/user.png" alt="" />
+                    </div>
+                  </div>
+                  <div
+                    class="testimonial-content position-relative text-md-start text-center p-3"
+                  >
+                    <div class=" text-center">
+                      <small
+                        >Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Sapiente alias, voluptas facere aliquid quaerat
+                        enim aliquam beatae amet qui pariatur maiores eos!
+                        Dignissimos laborum voluptate officiis dolorum
+                        numquam. Aliquid quos facilis, quibusdam temporibus
+                        adipisci molestias beatae autem ut suscipit
+                        iste?</small
+                      >
+                      <h6 class="text-light mt-2">- Nick Jhonson</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="testimonial-card">
+                  <div class="">
+                    <div class="testimonial-img">
+                      <img class="img-fluid" src="./images/user.png" alt="" />
+                    </div>
+                  </div>
+                  <div
+                    class="testimonial-content position-relative text-md-start text-center p-3"
+                  >
+                    <div class=" text-center">
+                      <small
+                        >Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Sapiente alias, voluptas facere aliquid quaerat
+                        enim aliquam beatae amet qui pariatur maiores eos!
+                        Dignissimos laborum voluptate officiis dolorum
+                        numquam. Aliquid quos facilis, quibusdam temporibus
+                        adipisci molestias beatae autem ut suscipit
+                        iste?</small
+                      >
+                      <h6 class="text-light mt-2">- Nick Jhonson</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="testimonial-card">
+                  <div class="">
+                    <div class="testimonial-img">
+                      <img class="img-fluid" src="./images/user.png" alt="" />
+                    </div>
+                  </div>
+                  <div
+                    class="testimonial-content position-relative text-md-start text-center p-3"
+                  >
+                    <div class=" text-center">
+                      <small
+                        >Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Sapiente alias, voluptas facere aliquid quaerat
+                        enim aliquam beatae amet qui pariatur maiores eos!
+                        Dignissimos laborum voluptate officiis dolorum
+                        numquam. Aliquid quos facilis, quibusdam temporibus
+                        adipisci molestias beatae autem ut suscipit
+                        iste?</small
+                      >
+                      <h6 class="text-light mt-2">- Nick Jhonson</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- testimonial-end -->
+
+    <!-- Footer
+		============================================= -->
+    <footer id="footer" class="border-0 text-light bg-dark">
+      <div class="section m-0 pt-md-5 pt-4 pb-0 footer-border">
+        <div class="container-fluid">
+          <div
+            class="row justify-content-between g-md-0 g-5 align-items-center"
+          >
+            <div class="col-md-3 c-foot col-8 text-center mx-auto mx-md-0">
+              <div class="">
+                <img src="./img/logo-trans.png" class="img-fluid" alt="" />
+              </div>
+            </div>
+
+            <div class="col-md-3 c-foot col-6">
+              <div class="">
+                <h5 class="mb-3 b-border-w position-relative">Quick Links</h5>
+                <ul>
+                  <li><a href="#">About</a></li>
+
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 c-foot col-6">
+              <div class="">
+                <h5 class="mb-3 b-border-w position-relative">My Account</h5>
+                <ul>
+                  <li><a href="#">My Wishlist</a></li>
+                  <li><a href="#">My Order</a></li>
+                  <li><a href="#">Cart</a></li>
+                  <li><a href="#">Login/Sign Up</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 c-foot">
+              <div class="">
+                <h5 class="mb-3 b-border-w position-relative">Contact Us</h5>
+                <ul class="mb-3">
+                  <li>
+                    <a href="" class="d-flex gap-2 my-1"
+                      ><i class="fa-solid fa-envelope col-b"></i>
+                      info@SunFlex.co.in</a
+                    >
+                  </li>
+                  <li>
+                    <a href="" class="d-flex gap-2"
+                      ><i class="fa-solid fa-phone col-b"></i> 1234 4321</a
+                    >
+                  </li>
+                </ul>
+
+                <ul class="s-icons">
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyrights
+			============================================= -->
+
+      <div class="section m-0 py-1 bg-dark text-light">
+        <div class="container-fluid">
+          <div class="row justify-content-between align-items-center py-2 mx-3">
+            <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+              <small class="m-0"
+                >&copy; 2023 SunFlex. All Rights Reserved.</small
+              >
+            </div>
+
+            <div class="col-md-3">
+              <ul
+                class="pay-card justify-content-md-end justify-content-center"
+              >
+                <li>
+                  <a href="#"><img src="./images/visa.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./images/mastercard.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./img/product-1.pngpng" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./images/american-express.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- #copyrights end -->
+    </footer>
+    <!-- #footer end -->
+    <a id="back-to-top" href="#" class="back-to-top"
+      ><i class="fas fa-chevron-up"></i
+    ></a>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/index.js"></script>
+    <script>
+      $(".home-slider").slick({
+        autoplay: true,
+        slidesToShow: 1,
+        infinite: true,
+        pauseOnHover: false,
+        autoplaySpeed: 2000,
+        arrows: false,
+        fade: true,
+        centerMode: true,
+        centerPadding: "1px",
+        cssEase: "linear",
+      });
+    </script>
+
+    <script></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      $(".testimonial").slick({
+        dots: true,
+        autoplay: true,
+
+        infinite: true,
+        arrows: false,
+        prevArrow:
+          '<div class="slick-arrow slick-prev fa-solid fa-arrow-left"></div>',
+        nextArrow:
+          '<div class="slick-arrow slick-next fa-solid fa-arrow-right"></div>',
+        speed: 350,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 786,
+            settings: {
+              arrows: false,
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>
