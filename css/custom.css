@@ -1574,3 +1574,150 @@ color: var(--primary-color);
 }
 /* about-us-page-end */
 
+
+/* contact-us-page */
+
+.bg-contact{
+  background-image: url('../img/med-bg6.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-contact::after{
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  background-color: #0d572ead;
+  /* background-color: var(--secondary-color); */
+  height: 100%;
+  width: 100%;
+  /* background: linear-gradient(350deg, rgba(249, 181, 21, 1) 0%, rgba(13, 87, 43, 1) 75%); */
+}
+.c-form-btn{
+  border:none;
+  padding: 10px 15px;;
+  background-color: var(--primary-color);
+  text-decoration: none;
+  color: white;
+  border-radius: 7px;
+}
+.contact-bg::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* background-color: var(--secondary-color); */
+  /* background-color: #0d572e; */
+  height: 50%;
+  width: 100%;
+  z-index: -1;
+  /* background: var(--secondary-color); */
+}
+.border-top::after{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+background-color: var(--primary-color);
+height: 4px;
+width: 100%;
+
+}
+.border-top{
+  position: relative;
+  overflow: auto;
+}
+.about-tag {
+  clip-path: polygon(0 0, 100% 0, 95% 50%, 100% 100%, 0 100%, 5% 50%);
+  background-color: var(--primary-color);
+  display: inline-block;
+  padding: 5px 20px;
+}
+.sign-form-inp {
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px; */
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-bottom: 1px solid #e0e0e0;
+  background: white;
+  padding: 5px 10px;
+}
+.sign-form-inp label {
+  margin: 0;
+
+  font-size: 12px;
+}
+.sign-form-inp input,
+textarea {
+  border: none !important;
+  font-size: 12px !important;
+  background: transparent;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.form-check-input:checked {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.form-check-input:focus {
+  box-shadow: none;
+  border: none;
+}
+/* contact-us-page */
+
+/* product-detail-page */
+
+.product-img{
+position: relative;
+}
+.product-img::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  background: linear-gradient(234deg, rgba(249, 181, 21, 1) 0%, rgba(13, 87, 43, 1) 75%);
+  z-index: -1;
+  border-radius: 10px;
+}
+.product-img img{
+  
+height: 100%;
+  
+width: 100%;
+  
+object-fit: contain;
+  
+object-position: center;
+  
+padding: 25px;
+  
+padding-left: 40px;
+}
+.product-content{
+
+}
+.product-content::after{
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: 12px solid var(--secondary-color);
+  height: 100%;
+  width: 70%;
+  border-radius: 6px;
+}
+.product-des{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+/* product-detail-page-end */
+
